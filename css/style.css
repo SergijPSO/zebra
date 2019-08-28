@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.app-header {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 84px;
+  z-index: 2;
+  background-color: rgba(245, 248, 248, 0.9);
+  -webkit-box-shadow: 0 8px 6px -6px gray;
+  -moz-box-shadow: 0 8px 6px -6px gray;
+  box-shadow: 0 8px 6px -6px gray;
+}
+
+.app-logo {
+  font-size: 38.05pt;
+  font-family: HelveticaNeueBold;
+  color: #626262;
+}
+.app-logo__green {
+  color: #06b5a9;
+}
+
+.app-navigation__menu {
+  display: flex;
+  padding-left: 182px;
+  padding-right: 88px;
+  font-family: HelveticaNeue;
+  color: #626262;
+  font-size: 18.05pt;
+}
+.app-navigation__menu-item {
+  padding: 0 28px;
+  height: 84px;
+  line-height: 84px;
+  z-index: 2;
+}
+.app-navigation__menu-item:hover {
+  height: 84px;
+  background-color: #cf1a2b;
+}
+.app-navigation__menu-item:hover a,
+.app-navigation__menu-item:hover ul {
+  color: #fff;
+}
+.app-navigation__menu-item a {
+  color: #626262;
+}
+
+.app-card {
+  font-size: 24.08pt;
+  font-family: HelveticaNeue;
+  color: #9d9d9d;
+}
+.app-card__basket {
+  padding-right: 7px;
+}
+.app-card__arrow {
+  padding-left: 16px;
+}
+
+.app-banner {
+  height: 654px;
+  background-image: url(../images/zebra.png);
+  background-size: cover;
+  background-position: center center;
+}
+.app-banner:before {
+  content: "";
+  background: #4bc7c7;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 654px;
+  opacity: 0.4;
+}
+.app-banner__btns {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  bottom: 362px;
+  padding: 0 48px;
+}
+.app-banner__btns img {
+  z-index: 1;
+  cursor: pointer;
+}
+
+.app-banner__description {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+  text-align: center;
+  padding-top: 261px;
+  padding-bottom: 166px;
+  line-height: 1.1;
+  text-shadow: 2px 2px 8px #000;
+}
+.app-banner__description-subtitle {
+  font-family: HelveticaNeue;
+  font-size: 22.05pt;
+  letter-spacing: 38px;
+}
+.app-banner__description-title {
+  font-family: impact;
+  font-weight: normal;
+  font-size: 116.05pt;
+}
+
+.app-promotion {
+  padding: 38px 130px;
+  display: flex;
+  justify-content: space-between;
+}
+.app-promotion__item {
+  width: 250px;
+  height: 250px;
+  border: 1px solid red;
+}
+
+/*# sourceMappingURL=style.css.map */
