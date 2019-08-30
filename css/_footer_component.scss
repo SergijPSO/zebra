@@ -1,0 +1,43 @@
+.app-footer {
+  display: flex;
+  align-items: center;
+  background-color: #1b2330;
+  width: 100%;
+  height: 102px;
+  cursor:pointer;
+
+  &-content {
+    padding: 0 53px;
+    width: 1023px;
+    display: inherit;
+    justify-content: space-between;
+    margin: 0 auto;
+
+    &-logo {
+      font-size: 30pt;
+      font-family: $bold;
+    }
+
+    &-copyright  {
+      font-family: $reglr;
+      font-size: 12.5pt;
+      display: block;
+      color: #a8aaad;
+    }
+
+    &-socials {
+      padding-top: 10px;
+
+      img {
+        padding-right: 40px;
+
+        &:last-child {
+          padding: 0;
+        }
+
+      }
+
+    }
+  }
+
+}

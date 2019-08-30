@@ -1,0 +1,88 @@
+.app-product {
+  width:  1023px;
+  margin: 0 auto;
+  padding: 0 54px;
+  position: relative;
+
+  &-label {
+    position: absolute;
+    z-index: 1;
+    top: -16px;
+    left: 17px;
+  }
+
+  &-selected {
+    display:flex;
+
+    .pants {
+      padding: 38px 0 0;
+    }
+
+    &-container {
+      position:relative;
+      padding: 0 118px 0 0;
+      font-family: $reglr;
+      font-size: 28pt;
+
+      h2 {
+        padding: 212px 0 14px 0;
+        font-family: $bold;
+        font-size: 32pt;
+      }
+
+      p {
+        padding-bottom: 30px;
+        font-family: $reglr; 
+        font-size: 12pt;
+      }
+
+      .price {
+        font-family: $bold;
+      }
+
+      .add_btn {
+        position: absolute;
+        padding: 6px 18px 6px 14px;
+        font-family: $reglr; 
+        font-size: 21pt;
+        right: 120px;
+        outline: none;
+        background-color: $pane_rd;
+        color: $whte;
+        border: none;
+        cursor: pointer;
+      }
+
+      .basket {
+        padding-right: 2px;
+      }
+    }
+
+  }
+}
+
+.app-catalog {
+  width: 1023px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 56px 53px;
+  text-align: center;
+  font-family: $reglr;
+  font-weight: 100;
+  color: #1b2330;
+  
+  h4 {
+    padding-top: 12px;
+  }
+
+  &__item-img {
+    border: 1px solid lightgray;
+    border-radius: 4px;
+
+     &:hover {
+      border: 1px solid $pane_rd;
+      cursor: pointer;
+    }
+  }
+}

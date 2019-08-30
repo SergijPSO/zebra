@@ -1,0 +1,126 @@
+.app-header {
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+  background-color: $header_color;
+  	-webkit-box-shadow: 0 8px 6px -6px gray;
+	   -moz-box-shadow: 0 8px 6px -6px gray;
+          box-shadow: 0 8px 6px -6px gray;
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.app-logo {
+  font-size: 30pt;
+  font-family: $bold;
+  color: $logo_colorgr;
+
+  &__green {
+    color: $logo_colorgn;
+  }
+
+  &__gray{
+    color: $logo_colorgr;
+  }
+
+}
+
+.app-navigation-panel {
+  display: none;
+  position: absolute;
+  background: $pane_rd;
+  left: 0;
+  top: 84px;
+}
+
+.app-navigation {
+
+  &__item {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    padding: 0 28px;
+    height: 84px;
+    font-family: $reglr;
+    font-size: 13pt;
+    color: #626262;
+    z-index: 2;
+
+    &:hover {
+      background-color: $pane_rd;
+      color: $whte;
+
+      .app-navigation-panel {
+        display: flex;
+      } 
+
+      .app-panel__item {
+
+        h1 {
+          color: $whte;
+          font-size: 30pt;
+          padding: 19px 42px;
+          border-bottom: 1px solid $border_rgba;
+          border-top: 1px solid $border_rgba;
+        }
+
+        img {
+          padding: 52px 60px 52px 72px;
+        }
+      }
+
+      .app-panel__logo-red {
+        opacity: 0.6;
+      }
+
+       .app-panel-list {
+        width: 190px;
+        padding: 12px 0 0 0;
+        border-left: 1px solid $border_rgba;
+
+        &__item {
+
+          &:hover {
+
+            background-color: $whte;
+            transition: background-color 0.4s ease;
+
+            a {
+              color: $pane_rd;
+            }
+
+          }
+     
+          padding: 12px 0 12px 36px;
+
+          a {
+            color: $whte;
+            font-family: HelveticaCE-Regular;
+          }
+
+        }
+      }
+    }
+  }
+
+}
+
+.app-card {
+  font-size: 17pt;
+  font-family: $reglr  ;
+  color: #9d9d9d;
+  cursor: pointer;
+
+  &__basket {
+    padding-right: 7px;
+  }
+
+  &__arrow {
+    padding-left: 16px;
+  }
+
+}

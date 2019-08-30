@@ -1,3 +1,11 @@
+@import 'variables';
+@import 'footer_component';
+@import 'header_component';
+@import 'banner_component';
+@import 'promotion_component';
+@import 'categorie_component';
+@import 'product_component';
+
 * {
   margin: 0;
   padding: 0;
@@ -6,144 +14,20 @@
   list-style: none;
 }
 
-.app-header {
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content:center;
-  width: 100%;
-  height: 84px;
-  z-index: 2;
-  background-color: rgba(245,248,248,.9);
-  	-webkit-box-shadow: 0 8px 6px -6px gray;
-	   -moz-box-shadow: 0 8px 6px -6px gray;
-	        box-shadow: 0 8px 6px -6px gray;
+body,
+header,
+footer,
+.app-content {
+  min-width: 1280px;
 }
 
-.app-logo {
-  font-size: 38.05pt;
-  font-family: HelveticaNeueBold;
-  color: #626262;
-
-  &__green {
-    color: #06b5a9;
-  }
+.app-wrapper {
+  padding: 0 53px;
+  max-width: 1023px;
+  margin: 0 auto;
 }
 
-
-.app-navigation__menu {
-  display: flex;
-  padding-left: 182px;
-  padding-right: 88px;
-  font-family: HelveticaNeue;
-  color: #626262;
-  font-size: 18.05pt;
-
-  &-item {
-    padding: 0 28px;
-    height: 84px;
-    line-height: 84px;
-    z-index: 2;
-
-    &:hover {
-      height: 84px;
-      background-color: #cf1a2b;
-
-      a,
-      ul {
-        color: #fff;
-      }
-
-    }
-
-    a {
-      color: #626262;
-    }
-
-  }
-
-}
-
-.app-card {
-  font-size: 24.08pt;
-  font-family: HelveticaNeue  ;
-  color: #9d9d9d;
-
-  &__basket {
-    padding-right: 7px;
-  }
-
-  &__arrow {
-    padding-left: 16px;
-  }
-}
-
-.app-banner {
-  height:654px;
-  background-image: url(../images/zebra.png);
-  background-size: cover;
-  background-position: center center;
-
-  &:before {
-    content: "";
-    background: #4bc7c7;
-    position: absolute;
-    z-index: 1;
-    width: 100%;
-    height: 654px;
-    opacity: 0.4;
-  }
-
-  &__btns {
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    bottom: 362px;
-    padding: 0 48px;
-    
-    img {
-      z-index: 1;
-      cursor:pointer;
-    }
-  }
-
-}
-
-.app-banner__description {
-  position:relative;
-  z-index:1;
-  color:#fff;
-  text-align: center;
-  padding-top: 261px;
-  padding-bottom: 166px;
-  line-height: 1.1;
-  // line-height: 19.72pt;
-  text-shadow: 2px 2px 8px #000;
-
-  &-subtitle {
-    font-family: HelveticaNeue;
-    font-size: 22.05pt;
-    letter-spacing: 38px;
-  }
-
-  &-title {
-    font-family: impact;
-    font-weight: normal;
-    font-size: 116.05pt;
-  }
-
-}
-
-.app-promotion {
-  // width: 1024px;
-  padding: 38px 130px; 
-  display:flex;
-  justify-content: space-between;
-  
-  &__item {
-    width: 250px;
-    height: 250px;
-    border:1px solid red;
-  }
-
+.app-content {
+  overflow: hidden;
+  margin: 0 auto;
 }

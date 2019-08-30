@@ -7,58 +7,242 @@
   <link rel="shortcut icon" href="/images/zebra_fav.png" type="image/x-icon">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/fonts.css">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Slab&display=swap" rel="stylesheet">
   <title>ZEBRA</title>
 </head>
 <body>
-  <div class="wrapper">
+
   <header class="app-header">
-      <a  class="app-logo" href="#">
+
+    <div class="app-wrapper app-header__wrapper">
+
+      <a class="app-logo" href="#">
         ZE<span class="app-logo__green">BRA</span>
       </a>
-    <nav class="app-navigation">
-      <ul class="app-navigation__menu">
-        <li class="app-navigation__menu-item">
-          <a href="#">Home</a>
-        </li>
-        <li class="app-navigation__menu-item">
-          <!-- <a href="#">Products</a> -->
-          <ul class="">
-            Products
-            
-          </ul>
-        </li>
-        <li class="app-navigation__menu-item">
-          <a href="#">Shopping</a>
-        </li>
-        <li class="app-navigation__menu-item">
-          <a href="#">Contacts</a>
-        </li>
-      </ul>
-    </nav>
-    <div class="app-card">
-      <img src="./images/basket.png" class="app-card__basket" alt="basket">
-      $35.00
-      <img src="./images/arrow.png" class="app-card__arrow" alt="arrow">
+      <nav class="app-navigation">
+
+        <a href="#" class="app-navigation__item">Home</a>
+        <div class="app-navigation__item">
+          Products
+          <div class="app-navigation-panel">
+
+            <div class="app-panel__item">
+              <a class="app-panel__logo" href="#">
+              <h1>ZE<span class="app-panel__logo-red">BRA</span></h1>
+              </a>
+              <img src="./images/tie.png" alt="tie">
+            </div>
+
+            <ul class="app-panel-list">
+              <li class="app-panel-list__item"><a href="#">Asics shoes</a></li>
+              <li class="app-panel-list__item"><a href="#">Nike air free</a></li>
+              <li class="app-panel-list__item"><a href="#">Sports Jerseys</a></li>
+              <li class="app-panel-list__item"><a href="#">Nike Air Max</a></li>
+              <li class="app-panel-list__item"><a href="#">Nike Shox</a></li>
+              <li class="app-panel-list__item"><a href="#">Nike AF1 Shoes</a></li>
+              <li class="app-panel-list__item"><a href="#">Asics shoes</a></li>
+              <li class="app-panel-list__item"><a href="#">Nike Air free</a></li>
+            </ul>
+
+            <ul class="app-panel-list">
+              <li class="app-panel-list__item"><a href="#">Asics shoes</a></li>
+              <li class="app-panel-list__item"><a href="#">Nike air free</a></li>
+              <li class="app-panel-list__item"><a href="#">Sports Jerseys</a></li>
+              <li class="app-panel-list__item"><a href="#">Nike Air Max</a></li>
+              <li class="app-panel-list__item"><a href="#">Nike Shox</a></li>
+              <li class="app-panel-list__item"><a href="#">Nike AF1 Shoes</a></li>
+              <li class="app-panel-list__item"><a href="#">Asics shoes</a></li>
+              <li class="app-panel-list__item"><a href="#">Nike Air free</a></li>
+            </ul>
+    
+          </div>
+
+        </div>
+        <a href="#" class="app-navigation__item">Shopping</a>
+        <a href="#"  class="app-navigation__item">Contacts</a>
+      </nav>
+
+      <div class="app-card">
+        <img src="./images/basket.png" class="app-card__basket" alt="basket">
+        $35.00
+        <img src="./images/arrow.png" class="app-card__arrow" alt="arrow">
+      </div>
+
     </div>
+      
   </header>
+
   <main class="app-content">
+
     <section class="app-banner">
+
       <div class="app-banner__description">
         <p class="app-banner__description-subtitle">INTRODUCING</p>
         <h2 class="app-banner__description-title">WILD EYES</h2>
       </div>
+
       <div class="app-banner__btns">
         <img src="./images/left.png" alt="left arrow">
         <img src="./images/right.png" alt="right arrow">
       </div>
+
     </section>
+
     <section class="app-promotion">
-      <div class="app-promotion__item">vsd</div>
-      <div class="app-promotion__item"></div>
-      <div class="app-promotion__item"></div>
-      <div class="app-promotion__item"></div>
+
+      <div class="app-promotion__item app-promotion__item--first">
+        <p class="item-title">ACTIVITEE</p>
+        <p class="item-text__smaller">T SHIRTS</p>
+        <p class="item-text__smaller">FROM</p>
+        <p class="item-text__small">DRIBB</p>
+        <p>BLE...</p>
+        <p class="price">
+          $25.00
+        </p>
+        <img src="./images/tshirt_black.png" alt="tshhirt black">
+      </div>
+
+      <div class="app-promotion__item app-promotion__item--second">
+        <p>AMPERSAN</p>
+        <p>DWICH</p>
+        <p>TEE</p>
+        <img src="./images/tshirt_yellow.png" alt="thshirt yellow">
+        <p class="price">
+          $18.00
+        </p>
+      </div>
+
+      <div class="app-promotion__item app-promotion__item--third">
+        <p class="item-title">BALLY ROG</p>
+        <p class="item-title">ER GLOW</p>
+        <p class="item-title">TEE</p>
+        <p class="item-text__smaller">DRIBLE </p>
+        <p>BLE...</p>
+        <p class="price">$25.00</p>
+        <img src="./images/tshirt_gray.png" alt="">
+      </div>
+
+      <div class="app-promotion__item app-promotion__item--forth">
+        <p class="item-discount">50%</p>
+        <p class="item-off">OFF</p>
+        <p class="item-sticker">LETS GO</p>
+      </div>
+
+    </section>
+
+    <section class="app-categories">
+
+      <h2 class="app-categories__title ">CATEGORIES</h2>
+      
+      <div class="app-categories__wrapper">
+        <div class="app-categories__item"></div>
+
+        <div class="app-categories__item">
+          <img src="./images/shoe_low.png" alt="shoe">
+        </div>
+
+        <div class="app-categories__item">
+          <img src="./images/tshirt.png" alt="thisrt">
+        </div>
+
+        <div class="app-categories__item">
+          <img src="./images/pants.png" alt="pants">
+        </div>
+
+        <div class="app-categories__item">
+          <img src="./images/cap.png" alt="cap">
+        </div>
+
+        <div class="app-categories__item">
+          <img src="./images/shoe_high.png" alt="shoe">
+        </div>
+
+        <div class="app-categories__item">
+          <img src="./images/tshirt.png" alt="tshirt">
+        </div>
+
+        <div class="app-categories__item">
+          <img src="./images/ambrella.png" alt="ambrella">
+        </div>
+
+        <div class="app-categories__item"></div>
+      </div>
+     
+    </section>
+
+    <section class="app-product">
+      <img src="./images/levis.png"  class="app-product-label" alt="levis">
+
+      <div class="app-product-selected">
+        <div class="app-product-selected-container">
+          <h2>Mens Levis Jeans-071</h2>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+            standard
+            dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+            specimen
+            book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially
+            unchanged. It was popularised
+          </p>
+          <span>Rate:</span><span class="price"> $ 61.99 </span>
+          <button class="add_btn">
+            <img src="./images/basket_white.png" class="basket" alt="basket"> 
+            Add to cart
+          </button>
+        </div>
+       <img src="./images/pants_big.png" class="pants" alt="pants">
+      </div>
+
+    </section>
+
+    <section class="app-catalog">
+
+      <div class="app-catalog__item">
+        <img src="./images/pants_small.png" class="app-catalog__item-img" alt="pants">
+        <h4>Levis Jeans-071</h4>
+      </div>
+
+      <div class="app-catalog__item">
+        <img src="./images/pants_small.png" class="app-catalog__item-img" alt="pants">
+        <h4>Levis Jeans-071</h4>
+      </div>
+
+      <div class="app-catalog__item">
+        <img src="./images/pants_small.png" class="app-catalog__item-img" alt="pants">
+        <h4 class="app-catalog__item-name">Levis Jeans-071</h4>
+      </div>
+
+      <div class="app-catalog__item">
+        <img src="./images/pants_small.png" class="app-catalog__item-img" alt="pants">
+        <h4>Levis Jeans-071</h4>
+      </div>
+
+      <div class="app-catalog__item">
+        <img src="./images/pants_small.png" class="app-catalog__item-img" alt="pants">
+        <h4>Levis Jeans-071</h4>
+      </div>
+
     </section>
   </main>
-  </div>
+
+  <footer class="app-footer">
+
+    <div class="app-footer-content">
+      <div class="app-footer-content-logo">
+        <span class=app-logo__gray>ZE</span><span class="app-logo__green">BRA</span>
+        <span class="app-footer-content-copyright">
+          Copyright © 2013 ALL rights reserved.
+        </span>
+      </div>
+
+      <div class="app-footer-content-socials">
+        <img src="./images/fb.png" alt="facebook">
+        <img src="./images/twit.png" alt="twitter">
+        <img src="./images/rss.png" alt="rss">
+      </div>
+
+    </div>
+  </footer>
+  
 </body>
 </html>

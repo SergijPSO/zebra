@@ -52,3 +52,15 @@
   font-family: HelveticaNeueMedium; 
   src: url("../fonts/HelveticaNeueMedium.ttf");
 }
+
+
+@font-face {
+  font-family: HelveticaCE-Regular; 
+  src: url("../fonts/HelveticaCE-Regular.ttf");
+}
+
+
+@font-face {
+  font-family: HelveticaCyrUp; 
+  src: url("../fonts/HelveticaCyrUp.ttf");
+}

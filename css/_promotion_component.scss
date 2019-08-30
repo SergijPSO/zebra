@@ -1,0 +1,134 @@
+.app-promotion {
+  position: relative;
+  margin: 0 auto;
+  width: 1280px;
+  padding: 38px 130px;
+  display: flex;
+  justify-content: space-between;
+  
+  &__item {
+    width: 245px;
+    height: 245px;
+    font-family: $bold;
+    color: $whte;
+    position: relative;
+    cursor: pointer;
+
+    &--first {
+      background-color:#58dbd3;
+      padding: 22px 21px 24px 25px;
+
+      .price {
+        position: absolute;
+        bottom: 19px;
+        font-size: 38pt;
+        color: $blck;
+        opacity: 0.6;
+      }
+
+      .item-title {
+        font-size: 19pt;
+        padding-bottom: 15px;
+      }
+
+      .item-text__smaller {
+        font-size: 18pt;
+      }
+
+      .item-text__small {
+        font-size: 14pt;
+      }
+
+      img {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+      }
+
+    }
+
+    &--second {
+      background-color:#e4ce9a;
+      font-size: 19pt;
+      padding: 22px 21px 24px 25px;
+
+      img {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+      }
+
+      .price {
+        position: absolute;
+        bottom:19px;
+        font-size: 38pt;
+        color: $blck;
+        opacity: 0.6;
+      }
+
+    }
+
+    &--third {
+      background-color: #ffa7ce;
+      padding: 22px 21px 24px 25px;
+      
+       .price {
+        position: absolute;
+        bottom:19px;
+        font-size: 38pt;
+        color: $blck;
+        opacity: 0.7;
+      }
+
+      .item-title {
+        font-size: 25px;
+      }
+
+      .item-text__smaller {
+        font-size: 14pt;
+        padding-top: 5px;
+      }
+      
+       img {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+      }
+
+    }
+
+    &--forth {
+      background-color:$itm_ylw;
+      padding: 12px 14px;
+
+      .item-discount {
+        position: relative;
+        top: -22px;
+        font-size: 80pt;
+        transform: scale(1, -1);
+      }
+
+      .item-sticker {
+        font-size: 18pt;
+        padding: 4px 16px;
+        color: $itm_ylw;
+        background-color: $whte;
+        position: absolute;
+        left: 0;
+        bottom: 12px;
+      }
+
+      .item-off{
+        position: absolute;
+        bottom: 52px;
+        left: 52px;
+        font-size: 48pt;
+      }
+
+    }
+  }
+
+}
